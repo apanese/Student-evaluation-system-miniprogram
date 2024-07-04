@@ -1,0 +1,58 @@
+.blue{
+  background:#6495ED;
+ height: 100rpx;
+ width: 100%;
+}
+.title{
+ display: block;
+ width: 100%;
+ font-size: 14pt;
+ color: #f4f4f4;
+ text-align: center;
+ line-height: 100rpx;  /** 垂直居中 **/ 
+}
+
+page {
+  font-family: Helvetica, Tahoma, "Microsoft YaHei", "PingFang SC", sans-serif;
+  background-color: #eeeeee;
+}
+
+.page .subtitle {
+  margin-top: 0.77em;
+  margin-bottom: 0.3em;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #555555;
+  font-size: 14px;
+}
+.rbtn{
+  margin-left: 550rpx; 
+  margin-top: 10rpx;
+  width: 90px;
+  color: #555555;
+  font-size: 14px;
+  background: none;
+}
+
+.userinfo {
+  margin-top: 30rpx;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: #353535;
+  font-size: 30rpx;
+  padding: 25rpx;
+}
+.userinfo .image{
+ width: 100rpx;
+height: 130rpx;
+}
+
+.userinfo .infowrap {
+  margin-left: 15rpx;
+}
+.userinfo .usercode {
+  color: #999;
+  font-size: 26rpx;
+  margin-top: 10rpx;
+}

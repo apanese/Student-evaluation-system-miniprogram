@@ -1,0 +1,90 @@
+  <!-- <!-- <view class="userinfo">
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+    ></button>
+    <text>{{name}}</text>
+  </view> -->
+  <!-- <button bindtap="add">dianji</button>
+  <i-panel title="基础用法">
+    <i-input value="{{ value1 }}" title="收货人" autofocus placeholder="名字" />
+    <i-input value="{{ value2 }}" type="number" title="联系电话" placeholder="请输入手机号" />
+    <i-input value="{{ value3 }}" type="textarea" title="详细地址" placeholder="请输入详细地址(最多50字)" maxlength="50" />
+    <i-input value="{{ value4 }}" title="用户信息" disabled />
+</i-panel>
+<i-panel title="无标题输入框">        
+    <i-input value="{{ value5 }}" placeholder="请输入收货人姓名" />
+</i-panel>
+
+<i-panel title="圆角输入框">
+    <i-input value="{{ value6 }}" type="number" right title="消费总额" mode="wrapped" placeholder="询问收银员后输入" />
+    <i-input value="{{ value7 }}" type="number" right error title="不参与优惠金额" mode="wrapped" placeholder="询问收银员后输入" />
+</i-panel>
+<i-button bind:click="handleClick" type="success"  size="small" inline="true">确定</i-button>
+<i-button bind:click="handleClick"   size="small" inline="true">取消</i-button>
+<i-button bind:click="handleClick" inline="true" >默认按钮</i-button>
+<i-button bind:click="handleClick" type="error" long="true">联通两边按钮</i-button>
+<i-button bind:click="handleClick" type="primary">Primary</i-button>
+<i-button bind:click="handleClick" type="ghost" size="small" inline="true">Ghost</i-button>
+<i-button bind:click="handleClick" type="info">Info</i-button>
+<i-button bind:click="handleClick" type="success">Success</i-button>
+<i-button bind:click="handleClick" type="warning">Warning</i-button>
+<i-button bind:click="handleClick" type="error">Error</i-button> --> 
+<view wx:for="{{alreadyevents}}" wx:if="{{already_hide}}">
+<!-- <view>姓名：{{item.name}} 日期：{{item.time}}</view>
+<view>活动简述：{{item.introduction}}</view>
+<view>感想收获：{{item.gains}}</view>
+<view>评分：{{item.score}}</view>
+<view>评语：{{item.comment}}</view> -->
+<i-panel title="{{index+1}}. 姓名：{{item.name}}  日期：{{item.time}} ">  
+ <!-- //index直接就是下标 -->
+    <view style="padding: 15px;">活动简述：{{item.introduction}}</view>
+</i-panel>
+<i-cell-group>
+    <i-cell title="感想收获：{{item.gains}}" ></i-cell>
+    <!-- <i-cell title="跳转到首页" is-link url="/pages/dashboard/index"></i-cell> -->
+    <i-cell title="评分：" url="" only-tap-footer>
+<block wx:for="{{item.score}}" wx:key="">
+<image src='../../images/star.png'></image>
+</block>
+<block wx:for="{{item.no_score}}" wx:key="">
+<image src='../../images/star0.png'></image>
+</block></i-cell>
+    <i-cell title="评语：{{item.comment}}" url="" only-tap-footer></i-cell>
+</i-cell-group>
+</view>
+<!-- <i-row>
+    <i-col span="7" i-class="col-class" offset="1">col-8</i-col>
+    <i-col span="7" i-class="col-class">col-8</i-col>
+    <i-col span="7" i-class="col-class">col-8</i-col>
+</i-row>
+<i-row>
+    <i-col span="8" i-class="col-class" offset="2">col-8</i-col>
+    <i-col span="8" i-class="col-class">col-8</i-col>
+    <i-col span="8" i-class="col-class">col-8</i-col>
+</i-row> --> 
+<view wx:for="{{not_alreadyevents}}" wx:if="{{not_already_hide}}" wx:for-item="i" wx:for-index="ind">
+<i-panel title="{{ind+1}}. 姓名：{{i.name}}  日期：{{i.time}} "  data-test="{{i.name}}">  
+ <!-- //index直接就是下标 -->
+    <view style="padding: 15px;">活动简述：{{i.introduction}}</view>
+</i-panel>
+
+ <i-cell title="感想收获：{{i.gains}}" ></i-cell>
+ <!-- <i-cell title="跳转到首页" is-link url="/pages/dashboard/index"></i-cell> -->
+ <i-cell title="评分：" url="" only-tap-footer>
+<view  data-test="{{index}}">
+<block wx:for="{{i.one_2}}" wx:key="index"  data-test="{i.name}}" >
+<image src='../../images/star.png' catchtap="in_xin" id="{{index+1}}" data-in='1' data-stuindex="{{ind}}"></image>
+</block>
+<block wx:for="{{i.zero_2}}" wx:key="index" >
+<image src='../../images/star0.png' catchtap="in_xin" id="{{index+1}}" data-in='0' data-stuindex="{{ind}}"></image>
+</block>
+</view>
+</i-cell>
+<!-- <i-cell title="评语：" url="" only-tap-footer></i-cell> -->
+<i-input  type="textarea" title="评语" placeholder=" rertret" maxlength="50"  bind:change='changeSearch' data-stuindex="{{ind}}"/>
+<i-button bind:click="handleClick" type="ghost" size="small" inline="true" data-stuindex="{{ind}}">确定</i-button>
+<i-button bind:click="handleClick" type="ghost" size="small" inline="true" data-stuindex="{{ind}}">取消</i-button>
+</view>

@@ -1,0 +1,17 @@
+
+<text>这是评价页面</text>
+<view>
+<a bindtap="map" data-id="1">学生1</a>
+</view>
+<view>
+<a bindtap="map" data-id="2">学生2</a>
+</view>
+<view>
+<a bindtap="map" data-id="3">学生3</a>
+</view>
+<view>
+<a bindtap="map" data-id="4">学生4</a>
+</view>
+<view>
+<a bindtap="map" data-id="5">学生5</a>
+</view>

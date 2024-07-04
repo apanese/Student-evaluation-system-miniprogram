@@ -1,0 +1,66 @@
+<view class='blue'> 
+  <text class="title" >请选择评价对象</text>
+  <button class="rbtn" bindtap="onStandardClick">评价标准</button>
+</view>
+
+<view class="page"> 
+ <view class="subtitle" >学生自评 </view>
+ </view>
+
+<view class='userinfo' bindtap="map" data-id="{{stu1.name}}">
+    <image class='image' src="/images/s2.png"></image>
+    <view class='infowrap'>
+      <view class='username' >{{stu1.name}}</view>
+    </view>
+    </view>
+
+<view class="page"> 
+ <view class="subtitle">学生互评</view>
+ </view>
+
+ <view class='userinfo' bindtap="map" data-id="{{stu2.name}}">
+    <image class='image'  src="/images/s3.png"></image>
+    <view class='infowrap'>
+      <view class='username' >{{stu2.name}}</view>
+    </view>
+    </view>
+
+    <view class='userinfo'  data-id="{{stu3.name}}" bindtap="map">
+    <image class='image'  src="/images/s3.png"></image>
+    <view class='infowrap'>
+      <view class='username' >{{stu3.name}}</view>
+    </view>
+    </view>
+
+    <view class='userinfo' data-id="{{stu4.name}}" bindtap="map">
+    <image class='image'  src="/images/s3.png"></image>
+    <view class='infowrap'>
+      <view class='username' >{{stu4.name}}</view>
+    </view>
+    </view>
+
+    <view class='userinfo' data-id="{{stu5.name}}" bindtap="map">
+    <image class='image'  src="/images/s3.png"></image>
+    <view class='infowrap'>
+      <view class='username' >{{stu5.name}}</view>
+    </view>
+    </view>
+
+    <!-- <view class='userinfo'>
+    <image class='image' src="/images/MARK.png"></image>
+    <view class='infowrap'>
+      <view class='username'>{{stu1.name}}</view>
+    </view>
+    </view> -->
+
+    <view class="page"> 
+ <view class="subtitle">家长评价</view>
+ </view>
+
+<view class='userinfo'>
+    <image class='image'  src="/images/s3.png"></image>
+    <view class='infowrap'>
+      <view class='username'>{{stu1.name}}</view>
+    </view>
+    </view>
+

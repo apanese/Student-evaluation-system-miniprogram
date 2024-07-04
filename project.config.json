@@ -1,0 +1,103 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "useIsolateContext": true,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "disableUseStrict": false,
+    "showES6CompileOption": false,
+    "useCompilerPlugins": false,
+    "minifyWXML": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.4.9",
+  "appid": "wxbfd9b7ffb469eec5",
+  "projectname": "test1.0",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "测试登录",
+          "pathName": "Pages/me/me",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "test",
+          "pathName": "Pages/test/test",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "测试注册",
+          "pathName": "Pages/register/register",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "评价1页面",
+          "pathName": "Pages/access_1/access_1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "评价页面",
+          "pathName": "Pages/assess/assess",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "评价3级页面",
+          "pathName": "Pages/access_2/access_2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "test2",
+          "pathName": "Pages/test2/test2",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "i-panel":"../../util/dist/panel/index",
+    "i-cell-group": "../../util/dist/cell-group/index",
+    "i-cell": "../../util/dist/cell/index",
+    "i-grid": "../../util/dist/grid/index",
+    "i-grid-item": "../../util/dist/grid-item/index",
+    "i-grid-icon": "../../util/dist/grid-icon/index",
+    "i-grid-label": "../../util/dist/grid-label/index",
+      "i-row": "../../util/dist/row/index",
+      "i-col": "../../util/dist/col/index",
+      "i-button": "../../util/dist/button/index",
+      "i-input": "../../util/dist/input/index"
+  }
+}

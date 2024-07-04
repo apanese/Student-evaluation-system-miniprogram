@@ -1,0 +1,44 @@
+.button_1{
+  display: inline-block;
+  width:50%;
+  border-radius: 0;
+}
+.button_1inactive{
+  display: inline-block;
+  width:50%;
+  border-radius: 0;
+}
+.button_1active{
+  display: inline-block;
+  width:50%;
+  border-radius: 0;
+  color: #fff;
+  background-color: #6495ED;
+}
+.test{
+   color: #fff;
+  background-color: #6495ED;
+}
+
+.button_1::after{
+  border-radius: 0;
+  border: none;
+}
+
+.btnhover{
+  color: #fff;
+  background-color: #6495ED;
+}
+
+.content{
+  margin-bottom: 20px;
+  height: 50px;
+  display:flex;
+  color:#fff;
+  align-items: center;
+  justify-content: center;
+  background-color: #B0C4DE
+}
+.conhover{
+  color: #6495ED
+}

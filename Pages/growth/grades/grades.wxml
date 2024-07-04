@@ -1,0 +1,7 @@
+<view class="background">
+
+<image class="image" src='/images/成绩内容.jpg' mode='aspectFit' ></image>
+
+<image class="image1" src='/images/成绩内容2.png' mode='aspectFit' ></image>
+
+</view>

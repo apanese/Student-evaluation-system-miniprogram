@@ -1,0 +1,66 @@
+<view>
+   <swiper indicator-dots="{{indicatorDots}}"  
+           autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">  
+         <block wx:for="{{imgUrls}}" wx:key="">  
+           <swiper-item>  
+              <navigator url="{{item.link}}" hover-class="navigator-hover">  
+               <image src="{{item.url}}" class="slide-image" width="355" height="150"/>  
+              </navigator>  
+           </swiper-item>  
+         </block>  
+ </swiper> 
+</view>
+
+<view class='blue'> 
+  <text class="title">公告</text>
+</view>
+
+<view class="notice-menu">
+
+ <view class="item">
+      <navigator class="a" url='../index/content/content'> 
+      <text class="txt">美丽社区 从我做起</text>
+      </navigator>
+    </view>
+
+    <view class="item">
+      <navigator class="a"> 
+      <text class="txt">关于调整2019年公布录取名单时间的通告</text>
+      </navigator>
+    </view>
+
+<view class="item">
+      <navigator class="a"> 
+      <text class="txt" >SEA小学2019年运动会时间安排</text>
+      </navigator>
+    </view>
+
+<view class="item">
+      <navigator class="a"> 
+      <text class='txt'>SEA小学语文科组开展第二次群文研课活动</text>
+   </navigator>
+    </view>
+
+    
+
+     <view class="item">
+      <navigator class="a"> 
+      <text class="txt">SEA小学举行地震逃生安全演练</text>
+      </navigator>
+    </view>
+
+    <view class="item">
+      <navigator class="a"> 
+      <text class="txt">欢乐数学节 爱心满校园</text>
+      </navigator>
+    </view>
+
+
+<view class="item">
+      <navigator class="a"> 
+      <text class="txt">SEA小学开展创建平安校园安全体验活动</text>
+      </navigator>
+    </view>
+
+
+</view> 

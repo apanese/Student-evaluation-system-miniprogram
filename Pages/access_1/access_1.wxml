@@ -1,0 +1,27 @@
+<button class="button_1{{already}}" catchtap="click" data-detail='1'>已评价({{already_num_sum}})</button> <button catchtap="click" class="button_1{{not}}" data-detail='2'>未评价({{not_already_num_sum}})</button>
+<!-- //view1_start -->
+<view wx:if="{{already_hide}}">    
+<view >
+<view class="content" hover-class="conhover" catchtap="lookmap" data-title="道德品质">道德品质({{already_num[0]}})</view>
+<view class="content"  hover-class="conhover" catchtap="lookmap" data-title="学习能力">学习能力({{already_num[1]}})</view>
+<view class="content"  hover-class="conhover" catchtap="lookmap" data-title="交流合作与创新实践">交流合作与创新实践({{already_num[2]}})</view>
+<view class="content"  hover-class="conhover" catchtap="lookmap" data-title="运动与健康">运动与健康({{already_num[3]}})</view>
+<view class="content"  hover-class="conhover" catchtap="lookmap" data-title="审美">审美({{already_num[4]}})</view>
+<view class="content"  hover-class="conhover" catchtap="lookmap" data-title="表演能力">表演能力({{already_num[5]}})</view>
+<view class="content"  hover-class="conhover" catchtap="lookmap" data-title="公民素养(">公民素养({{already_num[6]}})</view>
+</view>
+</view>   
+  <!-- //view1_end -->
+<!-- //view2_start -->
+<view wx:if="{{not_already_hide}}">    
+<view >
+<view class="content" hover-class="conhover" catchtap="lookmap_test" data-title="道德品质" >道德品质({{not_already_num[0]}})</view>
+<view class="content" hover-class="conhover" catchtap="lookmap_test" data-title="学习能力">学习能力({{not_already_num[1]}})</view>
+<view class="content"  hover-class="conhover" catchtap="lookmap_test" data-title="交流合作与创新实践">交流合作与创新实践({{not_already_num[2]}})</view>
+<view class="content" hover-class="conhover" catchtap="lookmap_test" data-title="运动与健康">运动与健康({{not_already_num[3]}})</view>
+<view class="content" hover-class="conhover" catchtap="lookmap_test" data-title="审美">审美({{not_already_num[4]}})</view>
+<view class="content" hover-class="conhover" catchtap="lookmap_test" data-title="表演能力">表演能力({{not_already_num[5]}})</view>
+<view class="content" hover-class="conhover" catchtap="lookmap_test" data-title="公民素养">公民素养({{not_already_num[6]}})</view>
+</view>
+</view>    
+ <!-- //view2_end -->

@@ -1,0 +1,55 @@
+<view class="container">
+
+<view class="profile-info">
+    <image bindtap="onUserInfoClick" class="avatar" src="{{url}}"></image>
+    <view class="info">
+    <button class="btn"  open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo" >{{name}}</button>  
+  </view>
+  <view hidden='{{isRegister}}' class="info" >
+  <button class="rbtn" bindtap="onUserInfoClick" type="../register/register" >没有账号？立即注册</button>
+  </view>
+</view>
+
+<view class="user-menu">
+  <view class='item'>
+    <image class='image' src="/images/评价结果.png"></image>
+    <view class='a'>
+      <view class='txt'>评价结果</view>
+   </view>
+  </view>
+
+    <view class='item'>
+    <image class='image' src="/images/系统通知.png"></image>
+    <view class='a'>
+      <view class='txt'>系统通知</view>
+   </view>
+  </view>
+
+    <view class='item'>
+    <image class='image' src="/images/设置.png"></image>
+    <view class='a'>
+      <view class='txt'>设置</view>
+   </view>
+  </view>
+
+
+   <view class='item'>
+    <image class='image' src="/images/关于.png"></image>
+    <view class='a'>
+      <view class='txt'>关于</view>
+   </view>
+  </view>
+
+
+   <view class='item'>
+    <image class='image' src="/images/退出登录.png"></image>
+    <view class='a'>
+      <view class='txt'>退出登录</view>
+   </view>
+  </view>
+
+<view class='empty'></view>
+
+</view>
+
+</view>

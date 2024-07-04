@@ -1,0 +1,13 @@
+.background{
+  background: #eeeeee;
+}
+
+.image{
+ width: 380px;
+ height: 530px;
+}
+
+.image1{
+ width: 380px;
+ height: 300px;
+}

@@ -1,0 +1,7 @@
+<view class="background">
+
+<image class="image" src='/images/成长记录内容.jpg' mode='scaleToFill' ></image>
+
+<image class="image1" src='/images/成长记录内容2.png' mode='scaleToFill' ></image>
+
+</view>

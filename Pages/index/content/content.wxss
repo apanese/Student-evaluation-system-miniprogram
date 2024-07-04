@@ -1,0 +1,27 @@
+.title{
+    display: block;
+    height: 24rpx;
+    width: 100%;
+    font-size: 15pt;
+    color: #000000;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 15rpx;
+    margin-top: 30rpx;
+}
+
+.image{
+ width: 390px;
+ height: 260px;
+ margin-top: 50rpx;
+}
+
+.txt{
+   display: block;
+    height: 24rpx;
+    width: 720rpx;
+    font-size: 12pt;
+    color:#333;
+    margin-left: 20rpx;
+    margin-right: 30rpx;
+}

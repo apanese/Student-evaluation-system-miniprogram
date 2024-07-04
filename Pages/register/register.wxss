@@ -1,0 +1,50 @@
+.form-here{
+margin-top:10px;
+ background-color:#ffffff;
+ padding:20px 30px;
+}
+
+.form-password{
+  margin-top:20px;
+}
+
+.submit{
+margin-top:30px;
+display:flex;
+justify-content:center;
+flex-flow:column wrap;
+}
+
+.verify{
+display:flex;
+justify-content:space-between;
+}
+
+.verify-input{
+width:60%;
+}
+
+.getcode{
+height:40px;
+line-height:40px;
+background-color:#6495ED;
+color:#ffffff;
+}
+
+.agree{
+text-align:center;
+font-size:12px;
+}
+
+.sub-button{
+  background-color:#6495ED;
+  color:#ffffff;
+  line-height:1.8;
+  border-radius:30px;
+  padding:5px 120px;
+  margin-top:20px;
+}
+
+.agreement{
+  color: #40a1e0;
+}

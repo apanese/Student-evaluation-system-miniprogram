@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "Pages/index/index",
+    "Pages/index/content/content",
+    "Pages/growth/growth",
+    "Pages/access_1/access_1",
+    "Pages/assess0/assess0",
+    "Pages/assess/assess",
+    "Pages/assess0/standard/standard",
+    "Pages/access_2/access_2",
+    "Pages/me/me",
+    "Pages/register/register",
+    "Pages/test/test",
+    "Pages/test2/test2",
+    "Pages/growth/grades/grades",
+    "Pages/growth/records/records"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "学生综合素质评价系统",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#9B9B9B",
+    "selectedColor": "#6495ED",
+    "backgroundColor": "#F8F8F8",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "Pages/index/index",
+        "text": "首页",
+        "iconPath": "images/4.png",
+        "selectedIconPath": "images/4.png"
+      },
+      {
+        "pagePath": "Pages/assess0/assess0",
+        "text": "评价",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/2.png"
+      },
+      {
+        "pagePath": "Pages/growth/growth",
+        "text": "成长",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1.png"
+      },
+      {
+        "pagePath": "Pages/me/me",
+        "text": "我",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/3.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

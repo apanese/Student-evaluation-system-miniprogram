@@ -1,0 +1,122 @@
+.container{
+    background: #f4f4f4;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+}
+.profile-info {
+  width: 100%;
+  height: 280rpx;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 30.25rpx;
+  background:#6495ED;
+}
+.profile-info .avatar {
+  height: 148rpx;
+  width: 20%;
+  border-radius: 50%;
+  border: 4rpx solid #fff;
+}
+.profile-info .info {
+  flex: 1;
+  height: 85rpx;
+  margin-left: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile-info .level {
+  height: 30rpx;
+  line-height: 30rpx;
+  margin-top: 10rpx;
+  color: #7f7f7f;
+  font-size: 30rpx;
+}
+.profile-info .btn {
+ width:200rpx;
+  height: 100rpx;
+  margin-left: 10rpx;
+  background: none;
+}
+
+.profile-info .rbtn{
+  margin-left: 190px;
+   width:280rpx;
+  height: 50rpx;
+  font-size: 12px;
+  color:#333;
+  background: none;
+}
+
+.user-menu{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #f4f4f4;
+}
+
+.user-menu .empty{
+  float: left;
+    width: 100%;
+    height: 190rpx;
+    background:#f4f4f4;
+}
+
+
+.item {
+  float: left;
+  width: 100%;
+  height: 50rpx; 
+  margin-top: 30rpx;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  padding: 25rpx; 
+  text-align:left;
+  background:#ffffff;
+}
+
+.item .image{
+ width: 80rpx;
+ height: 80rpx;
+}
+
+.item .a {
+  margin-left: 15rpx;
+}
+
+.item .txt{
+    display: block;
+    height: 30rpx;
+    width: 100%;
+    font-size: 34rpx;
+    margin-left: 10rpx;
+    margin-bottom: 15rpx;
+    color: #000000;
+}
+
+.userinfo, .uploader, .tunnel {
+  margin-top: 40rpx;
+  height: 140rpx;
+  width: 100%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+}
+
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  background-size: cover;
+  background-color: white;
+}

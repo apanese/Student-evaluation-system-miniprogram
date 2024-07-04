@@ -1,0 +1,39 @@
+<view class="growth-menu">
+
+<navigator class='item'>
+    <image class='image' src="/images/活动.png"></image>
+    <view class='a'>
+      <view class='txt'>活动</view>
+    </view>
+ </navigator>
+<view class="empty">
+</view>
+
+<navigator class='item' url='../growth/grades/grades'>
+    <image class='image' src="/images/成绩.png"></image>
+    <view class='a'>
+      <view class='txt'>成绩</view>
+    </view>
+    </navigator>
+
+<view class="empty">
+</view>
+
+<navigator class='item' url='../growth/records/records' >
+    <image class='image' src="/images/成长记录.png"></image>
+    <view class='a'>
+      <view class='txt'>成长记录</view>
+    </view>
+ </navigator>
+<view class="empty">
+</view>
+
+<navigator class='item'>
+    <image class='image' src="/images/成长报告.png"></image>
+    <view class='a'>
+      <view class='txt'>成长报告</view>
+    </view>
+ </navigator>
+<view class="empty">
+</view>
+</view>

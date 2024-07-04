@@ -1,0 +1,15 @@
+.background{
+  background: #eeeeee;
+}
+
+.image{
+ width: 380px;
+ height: 530px;
+ align-self: center;
+}
+
+.image1{
+ width: 370px;
+ height: 300px;
+ align-self: center;
+}
